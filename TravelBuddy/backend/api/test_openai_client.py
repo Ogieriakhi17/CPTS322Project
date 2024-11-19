@@ -30,5 +30,3 @@ def test_openai_client_generate_itinerary():
 if __name__ == "__main__":
     test_openai_client_generate_itinerary()
 
-
-
