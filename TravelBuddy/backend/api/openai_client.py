@@ -4,7 +4,7 @@ import os
 class OpenAIClient:
     def generate_itinerary(self, preferences):
         try:
-            print("Sending preferences to OpenAI...")
+            print("Sending preferences to TravelEngine...")
             
             response = openai.ChatCompletion.create(
                 model="gpt-3.5-turbo",
